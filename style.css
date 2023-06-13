@@ -1,0 +1,106 @@
+.board{
+    min-width: 100px;
+    min-height: 100px;
+    margin-top:5%;
+    margin-bottom:5% ;
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.cell{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:green;
+}
+.cell1{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:red;
+
+}
+.cell:first-child, .cell:nth-child(2), .cell:nth-child(3){
+    border-top:none; 
+}
+.cell:first-child, .cell:nth-child(4), .cell:nth-child(7){
+    border-left:none; 
+}
+ .cell:nth-child(3), .cell:nth-child(6),.cell:nth-child(9){
+    border-right:none; 
+}
+.cell:nth-child(7), .cell:nth-child(8),.cell:nth-child(9){
+    border-bottom:none; 
+}
+.cell1:first-child, .cell1:nth-child(2), .cell1:nth-child(3){
+    border-top:none; 
+}
+.cell1:first-child, .cell1:nth-child(4), .cell1:nth-child(7){
+    border-left:none; 
+}
+ .cell1:nth-child(3), .cell1:nth-child(6),.cell1:nth-child(9){
+    border-right:none; 
+}
+.cell1:nth-child(7), .cell1:nth-child(8),.cell1:nth-child(9){
+    border-bottom:none; 
+}
+#btn{
+    background-color:rgb(241, 180, 11);
+    width:10%;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    font-size:25px ;
+    color:black;
+    text-align:center ;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.hide{
+    display:none;
+}
+.playerX{
+    color:green;
+
+}
+.playerO{
+    color:red;
+    
+
+}
+.background{
+    height:100vh;
+    padding: 1px;
+    background-color:rgb(168, 190, 204);
+}
+.winner{
+    font-size:50px;
+    color:rgb(214, 86, 22);
+}
+#btn{
+    font-size: xx-large;
+}
