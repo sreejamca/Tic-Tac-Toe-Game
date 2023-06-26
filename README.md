@@ -73,7 +73,31 @@ Clone the project
 <!-- Usage -->
 ## :eyes: Usage
 
-This Tic-Tac-Toe Game is a fun project which is basically designed and developed for two players.The functionality of this projevt allowa the players to take turns and play.Each time the player clicks on the cell,it marks their symbol('X'or'O').To identify it easily have given the color code green for X and red.This game board has 9 cells and any player marks a row, column or diagonally,then that player is the winner of the game.If both players are not able to mark a row,column or diagonally,then the game ends in a TIE.There is a restart button to refresh the page once the game is over.
+1.Initializing the Game:
+--Display an empty 3x3 grid,representing the Tic-Tac-Toe game board.
+--Assign each cell of the grid with a unique number to help players make their moves.
+2.Player Input:
+--Prompt the first player to choose a cell number to make their move.
+--Validate the input to ensure it's a valid cell number and not already occupied.
+--Update the grid with the player's move.
+3.Switch Players:
+--Swap the active player to the second player's turn.
+4.Repeat Player Input and Switch Player:
+--Prompt the second player for their move.
+--Validate the input and update the grid.
+5.Game Progression:
+--After each move, display the updated grid to show the current state of the game.
+6.Win condition:
+--Check after each move if any player has achieved a winning combination (three in a row, column, or diagonal).
+   If a player has won, display a congratulatory message and end the game.
+7.Draw Condition:
+--If all the cells are occupied, and no player has won, declare the game as a draw and end it.
+8.Repeat the game until the game reaches a win or draw.
+
+
+
+
+
 
 
 
