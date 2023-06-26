@@ -2,45 +2,14 @@
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
-  * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
   * [Installation](#gear-installation)
   * [Run Locally](#running-run-locally)
 
 - [Usage](#eyes-usage)
 
-
-
 <!-- About the Project -->
 ## :star2: About the Project
-
-
-<!-- Screenshots -->
-### :camera: Screenshots
-
-<div align="center"> 
-  <img src="![image](https://github.com/sreejamca/Week11CodingAssignment/assets/75954803/e0dbce85-0a1c-42da-bc32-9fca01bea446)" alt="screenshot" />
-</div>
-
-
-<!-- TechStack -->
-### :space_invader: Tech Stack
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.index.js/">JavaScript</a></li>
-    <li><a href="https://style.css/">TailwindCSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.index.js">JavaScript</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 ### :dart: Features
